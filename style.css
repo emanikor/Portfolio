@@ -192,7 +192,7 @@ img {
     width: 90%;
     line-height: 30px;
     color: #020202;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #about .aboutImage img{
     margin: 30px 0 20px;
@@ -249,7 +249,7 @@ img {
 #projects ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 1rem 0rem 1rem 0rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -313,7 +313,13 @@ img {
 	font-size: 1rem;
 }
 /* End Footer */
-
+.demos a{
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  color: #000000;
+  font-size: 1.1rem;
+}
 
 @media (min-width: 800px) {
     #Intro{
